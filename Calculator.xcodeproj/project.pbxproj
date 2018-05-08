@@ -11,6 +11,7 @@
 		270C6B6D9486BBF075BE7246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270C620D1C297FB4F0345121 /* AppDelegate.swift */; };
 		270C6C5DEE0BAE605D07611A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270C63D0E66280A7B6764F1C /* LaunchScreen.storyboard */; };
 		270C6E4929BE630E8896221F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270C69CB98AABCC307530379 /* Main.storyboard */; };
+		270C6EA05377FEEB6C57AA82 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270C68DD5AB0EB8B0D1907E1 /* CalculatorBrain.swift */; };
 		270C6FB923CABFB7A0488594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270C60F1395556D28FCF5304 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -18,6 +19,7 @@
 		270C6006621DFE328B9D7572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		270C60F1395556D28FCF5304 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		270C620D1C297FB4F0345121 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		270C68DD5AB0EB8B0D1907E1 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		270C6A927645DD121DCB618E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		270C6D4C6F7B6CA8C6C3B9F6 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		270C6EA3EAF82A133830461D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			children = (
 				270C69CB98AABCC307530379 /* Main.storyboard */,
 				270C60F1395556D28FCF5304 /* ViewController.swift */,
+				270C68DD5AB0EB8B0D1907E1 /* CalculatorBrain.swift */,
 				270C66E394DB33D1B9E8C035 /* Supporting Files */,
 			);
 			path = Calculator;
@@ -137,6 +140,7 @@
 			files = (
 				270C6FB923CABFB7A0488594 /* ViewController.swift in Sources */,
 				270C6B6D9486BBF075BE7246 /* AppDelegate.swift in Sources */,
+				270C6EA05377FEEB6C57AA82 /* CalculatorBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +214,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -321,6 +324,7 @@
 				270C618376517918AEA37545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
